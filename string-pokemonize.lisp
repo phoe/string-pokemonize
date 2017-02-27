@@ -1,6 +1,6 @@
 ;;;; StRiNg-pOkEmOnIzE.LiSp
 ;;;; MiT LiCeNsE
-;;;; ® 2017 MiChAł \\\"pHoE\\\" HeRdA
+;;;; ® 2017 MiChAł \"pHoE\" HeRdA
 
 (DeFpAcKaGe #:sTrInG-PoKeMoNiZe
   (:uSe #:cL)
