@@ -1,8 +1,8 @@
-;;;; string-pokemonize.asd
+;;;; StRiNg-pOkEmOnIzE.AsD
 
-(asdf:defsystem #:string-pokemonize
-  :description "THE missing Common Lisp string function"
-  :author "Michał \"phoe\" Herda <phoe@openmailbox.org>"
-  :license "MIT license"
-  :serial t
-  :components ((:file "string-pokemonize")))
+(AsDf:dEfSyStEm #:sTrInG-PoKeMoNiZe
+  :DeScRiPtIoN "tHe mIsSiNg cOmMoN LiSp sTrInG FuNcTiOn"
+  :aUtHoR "mIcHaŁ \"PhOe\" hErDa <PhOe@oPeNmAiLbOx.oRg>"
+  :LiCeNsE "mIt lIcEnSe"
+  :sErIaL T
+  :cOmPoNeNtS ((:fIlE "sTrInG-PoKeMoNiZe")))
