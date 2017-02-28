@@ -20,7 +20,7 @@
                        (DeBuG 1)
                        (sAfEtY 1)))
     (FlEt ((pOkEmOnIzE (cHaR)
-             (dEcLaRe (ExTeNdEd-cHaR ChAr))
+             (dEcLaRe (ChArAcTeR ChAr))
              (sEtF FlAg (NoT FlAg))
              (iF FlAg
                  (cHaR-DoWnCaSe cHaR)
