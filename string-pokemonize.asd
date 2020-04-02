@@ -5,4 +5,4 @@
   :aUtHoR "mIcHaŁ \"PhOe\" hErDa <PhOe@oPeNmAiLbOx.oRg>"
   :LiCeNsE "mIt lIcEnSe"
   :sErIaL T
-  :cOmPoNeNtS ((:fIlE "string-pokemonize")))
+  :cOmPoNeNtS ((:fIlE #.(sTrInG-DoWnCaSe "StRiNg-PoKeMoNiZe"))))
