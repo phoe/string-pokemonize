@@ -8,10 +8,10 @@
 
 (In-pAcKaGe #:sTrInG-PoKeMoNiZe)
 
-(DeFuN StRiNg-pOkEmOnIzE (sTrInG &kEy (StArT 0) eNd)
+(DeFuN StRiNg-pOkEmOnIzE (sTrInG &kEy (StArT 0) (EnD (lEnGtH StRiNg)))
   (cHeCk-tYpE StArT FiXnUm)
-  (lEt ((rEsUlT (mAkE-ArRaY (lEnGtH StRiNg) :eLeMeNt-tYpE 'cHaRaCtEr))
-        (EnD (oR EnD (lEnGtH StRiNg)))
+  (cHeCk-tYpE EnD FiXnUm)
+  (lEt ((rEsUlT (mAkE-ArRaY (lEnGtH StRiNg) :eLeMeNt-tYpE 'cHaRaCtEr :InItIaL-CoNtEnTs sTrInG))
         (fLaG NiL))
     (dEcLaRe (DyNaMiC-ExTeNt fLaG)
              (bOoLeAn fLaG)
