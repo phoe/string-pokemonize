@@ -1,4 +1,4 @@
 ```
-> (StRiNg-PoKeMoNiZe "foo-bar-baz-quux-FOO-BAR-BAZ-QUUX")
-"FoO-BaR-BaZ-QuUx-fOo-bAr-bAz-qUuX"
+> (sTrInG-pOkEmOnIzE "fOo-BaR-bAz-QuUx-FoO-bAr-BaZ-qUuX")
+"fOo-BaR-bAz-QuUx-FoO-bAr-BaZ-qUuX"
 ```

@@ -1,32 +1,37 @@
-;;;; StRiNg-pOkEmOnIzE.LiSp
-;;;; MiT LiCeNsE
-;;;; ® 2017 MiChAł \"pHoE\" HeRdA
+;;;; sTrInG-pOkEmOnIzE.lIsP
+;;;; mIt LiCeNsE
+;;;; ® 2017 mIcHaŁ \"pHoE\" hErDa
 
-(DeFpAcKaGe #:sTrInG-PoKeMoNiZe
-  (:uSe #:cL)
-  (:eXpOrT #:StRiNg-pOkEmOnIzE))
+(DeFpAcKaGe #:StRiNg-PoKeMoNiZe
+  (:UsE #:cL)
+  (:eXpOrT #:sTrInG-pOkEmOnIzE))
 
-(In-pAcKaGe #:sTrInG-PoKeMoNiZe)
+(iN-pAcKaGe #:StRiNg-PoKeMoNiZe)
 
-(DeFuN StRiNg-pOkEmOnIzE (sTrInG &kEy (StArT 0) (EnD (lEnGtH StRiNg)))
-  (cHeCk-tYpE StArT FiXnUm)
-  (cHeCk-tYpE EnD FiXnUm)
-  (lEt ((rEsUlT (mAkE-ArRaY (lEnGtH StRiNg) :eLeMeNt-tYpE 'cHaRaCtEr :InItIaL-CoNtEnTs sTrInG))
-        (fLaG NiL))
-    (dEcLaRe (DyNaMiC-ExTeNt fLaG)
-             (bOoLeAn fLaG)
-             (fIxNuM StArT EnD)
+(DeFuN sTrInG-pOkEmOnIzE (sTrInG &kEy (StArT 0) (eNd (LeNgTh StRiNg)))
+  (ChEcK-tYpE sTaRt FiXnUm)
+  (ChEcK-tYpE eNd FiXnUm)
+  (LeT ((rEsUlT (mAkE-aRrAy (LeNgTh StRiNg)
+                            :ElEmEnT-tYpE 'cHaRaCtEr
+                            :InItIaL-cOnTeNtS sTrInG))
+        (eNd (Or EnD (lEnGtH sTrInG)))
+        (fLaG nIl))
+    (DeClArE (dYnAmIc-ExTeNt FlAg)
+             (BoOlEaN fLaG)
+             (fIxNuM sTaRt EnD)
              (oPtImIzE (sPeEd 3)
                        (DeBuG 1)
                        (sAfEtY 1)))
-    (FlEt ((pOkEmOnIzE (cHaR)
-             (dEcLaRe (ChArAcTeR ChAr))
-             (sEtF FlAg (NoT FlAg))
-             (iF FlAg
-                 (cHaR-DoWnCaSe cHaR)
-                 (cHaR-UpCaSe cHaR))))
-      (dEcLaRe (InLiNe pOkEmOnIzE))
-      (lOoP FoR I FrOm sTaRt bElOw eNd
-            dO (sEtF (aReF ReSuLt i)
-                     (PoKeMoNiZe (ChAr sTrInG I)))
-            fInAlLy (ReTuRn rEsUlT)))))
+    (fLeT ((pOkEmOnIzE (cHaR)
+             (dEcLaRe (ChArAcTeR cHaR))
+             (wHeN (oR (uPpEr-CaSe-P cHaR)
+                       (lOwEr-CaSe-P cHaR))
+               (sEtF fLaG (nOt FlAg)))
+             (If FlAg
+                 (ChAr-DoWnCaSe ChAr)
+                 (ChAr-UpCaSe ChAr))))
+      (DeClArE (iNlInE pOkEmOnIzE))
+      (lOoP fOr I fRoM sTaRt BeLoW eNd
+            Do (SeTf (ArEf ReSuLt I)
+                     (pOkEmOnIzE (cHaR sTrInG i)))
+            FiNaLlY (rEtUrN rEsUlT)))))
